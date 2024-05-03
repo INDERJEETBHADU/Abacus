@@ -12,6 +12,12 @@
   padding-bottom: 47px;
 }
 
+.mt_9 {
+  margin-top: 9px;
+}
+
+/* margin--padding---gap--here */
+
 .max_w_463 {
   max-width: 463px;
 }
@@ -20,11 +26,19 @@
   max-width: 519px;
 }
 
+.mx_w_521 {
+  max-width: 521px;
+}
+
 @media (min-width:576px) {
 
   .py_47 {
     padding-top: 54px;
     padding-bottom: 57px;
+  }
+
+  .mt_9 {
+    margin-top: 20px;
   }
 }
 
@@ -33,18 +47,34 @@
     padding-top: 64px;
     padding-bottom: 77px;
   }
+
+  .mt_9 {
+    margin-top: 10px;
+  }
 }
 
 @media (min-width:992px) {
   .py_47 {
     padding-bottom: 87px;
   }
+
+  .mt_9 {
+    margin-top: 13px;
+  }
 }
 
-@media (min-width:1024px) {}
+@media (min-width:1024px) {
+  .mt_9 {
+    margin-top: 15px;
+  }
+}
 
 @media (min-width:1200px) {
   .py_47 {
     padding-bottom: 108.96px;
+  }
+
+  .mt_9 {
+    margin-top: 21px;
   }
 }
