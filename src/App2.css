@@ -4,3 +4,57 @@
     background-size: 100% 100%;
     background-position: center;
 }
+
+/************************************padding-margin******************************/
+.mt-21 {
+    margin-top: 21px;
+}
+
+.py-services {
+    padding-top: 160px;
+    padding-bottom: 153px;
+}
+
+.mt-27 {
+    margin-top: 27px;
+}
+
+.mt-16 {
+    margin-top: 16px;
+}
+
+.mt-52 {
+    margin-top: 52px;
+}
+
+/************************************padding-margin******************************/
+
+.max-w-526 {
+    max-width: 526px;
+}
+
+.max-w-292 {
+    max-width: 292px;
+}
+
+.max-w-214 {
+    max-width: 214px;
+}
+
+.op-70 {
+    opacity: 70%;
+}
+
+.gap-20 {
+    gap: 20px;
+}
+
+.servics-box {
+    max-width: 367px;
+    width: 100%;
+    box-shadow: 0px 9px 28px 0px #0000000A;
+    height: 100%;
+    background-color: white;
+    padding: 53px 0px 51px 0px;
+    border-radius: 10px;
+}
