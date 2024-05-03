@@ -3,7 +3,6 @@ import { useState } from "react";
 import emailjs from "@emailjs/browser";
 import Swal from "sweetalert2";
 
-
 const Contact = () => {
   const [inputvalue, setValue] = useState({
     first: "",
@@ -40,66 +39,71 @@ const Contact = () => {
 
   return (
     <>
-      <section>
-        <div className="container d-flex justify-content-center">
-          <div className="heaving_card">
-            <h2 className=" text-center">Email js</h2>
+      <section className="contect_bg_color">
+        <div className="container pb-133 pt-4">
+          <h4 className=" text-20 lh-21 mb-0   ff-urbanist fw-normal text-black text-center ">
+            CONTACT US
+          </h4>
 
-            <form onSubmit={fromsubmit}>
-              <div className="  d-flex gap-3">
-                <div className=" input_parent">
-                  <label className=" text-black  ">Name*</label>
-                  <input
-                    className=" name_input"
-                    required
-                    type="text"
-                    value={inputvalue.first}
-                    name="first"
-                    onChange={addvalue}
-                  />
+          <h2 className=" fw-bold ff-urbanist text-40 lh-43 text-center mt-1 mb-48 text-blacknpm start
+          ">Having any question?</h2>
+
+          <div className="d-flex justify-content-center">
+            <div className="heaving_card">
+              <form onSubmit={fromsubmit}>
+                <div className="  d-flex flex-sm-row flex-column gap-3">
+                  <div className=" input_parent">
+                    <label className=" text-black  ">Name*</label>
+                    <input
+                      className=" name_input"
+                      required
+                      type="text"
+                      value={inputvalue.first}
+                      name="first"
+                      onChange={addvalue}
+                    />
+                  </div>
+                  <div className=" input_parent">
+                    <label className=" text-black  ">Email address*</label>
+                    <input
+                      className=" name_input"
+                      required
+                      type="email"
+                      value={inputvalue.second}
+                      name="second"
+                      onChange={addvalue}
+                    />
+                  </div>
                 </div>
-                <div className=" input_parent">
-                  <label className=" text-black  ">Email address*</label>
-                  <input
-                    className=" name_input"
-                    required
-                    type="email"
-                    value={inputvalue.second}
-                    name="second"
-                    onChange={addvalue}
-                  />
+                <div className="  d-flex flex-sm-row flex-column gap-3">
+                  <div className=" input_parent">
+                    <label className=" text-black  ">Phone number</label>
+                    <input
+                      className=" name_input"
+                      required
+                      type="number"
+                      value={inputvalue.third}
+                      name="third"
+                      onChange={addvalue}
+                    />
+                  </div>{" "}
+                  <div className=" input_parent">
+                    <label className=" text-black  ">Company*</label>
+                    <input
+                      className=" name_input"
+                      required
+                      type="text"
+                      value={inputvalue.four}
+                      name="four"
+                      onChange={addvalue}
+                    />
+                  </div>
                 </div>
-              </div>
-              <div className="  d-flex gap-3">
-                <div className=" input_parent">
-                  <label className=" text-black  ">Phone number</label>
-                  <input
-                    className=" name_input"
-                    required
-                    type="number"
-                    value={inputvalue.third}
-                    name="third"
-                    onChange={addvalue}
-                  />
-                </div>{" "}
-                <div className=" input_parent">
-                  <label className=" text-black  ">Company*</label>
-                  <input
-                    className=" name_input"
-                    required
-                    type="text"
-                    value={inputvalue.four}
-                    name="four"
-                    onChange={addvalue}
-                  />
-                </div>
-              </div>
-              <div className="  d-flex gap-3"></div>
-              <div className="  d-flex gap-3">
+
                 <div className=" input_parent">
                   <label className=" text-black  ">Message*</label>
                   <input
-                    className=" name_input"
+                    className=" pt-30 name_input"
                     required
                     type="text"
                     value={inputvalue.five}
@@ -107,9 +111,8 @@ const Contact = () => {
                     onChange={addvalue}
                   />
                 </div>
-              </div>
-              <button className="touch_btn mt-4">GET IN TOUCH</button>
-            </form>
+              </form>
+            </div>
           </div>
         </div>
       </section>

@@ -1,9 +1,11 @@
-import logo from "./logo.svg";
-import "./App.css";
-import "bootstrap/dist/css/bootstrap.min.css";
-import "bootstrap/dist/js/bootstrap.min.js";
-import Footer from "./components/Footer";
+import './App.css';
+import './App2.css';
+import './App3.css';
+import 'bootstrap/dist/css/bootstrap.min.css';
+import 'bootstrap/dist/js/bootstrap.min.js';
 import Contact from "./components/Contact";
+import Footer from './components/Footer';
+
 
 function App() {
   return (
