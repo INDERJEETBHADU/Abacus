@@ -1,7 +1,50 @@
-*{
+* {
   margin: 0;
   padding: 0;
   list-style-type: none;
   text-decoration: none !important;
   box-sizing: border-box;
+}
+
+/* margin--padding---gap--here */
+.py_47 {
+  padding-top: 47px;
+  padding-bottom: 47px;
+}
+
+.max_w_463 {
+  max-width: 463px;
+}
+
+.max_w_519_heading {
+  max-width: 519px;
+}
+
+@media (min-width:576px) {
+
+  .py_47 {
+    padding-top: 54px;
+    padding-bottom: 57px;
+  }
+}
+
+@media (min-width:768px) {
+  .py_47 {
+    padding-top: 64px;
+    padding-bottom: 77px;
+  }
+}
+
+@media (min-width:992px) {
+  .py_47 {
+    padding-bottom: 87px;
+  }
+}
+
+@media (min-width:1024px) {}
+
+@media (min-width:1200px) {
+  .py_47 {
+    padding-bottom: 108.96px;
+  }
 }
