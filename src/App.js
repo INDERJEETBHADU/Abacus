@@ -1,4 +1,3 @@
-import logo from './logo.svg';
 import './App.css';
 import './App2.css';
 import './App3.css'
@@ -8,12 +7,13 @@ import About from "./components/About"
 import Footer from './components/Footer';
 
 
+
 function App() {
   return (
     <>
       <About />
       {/* <Footer /> */}
-    </>
+      </>
   );
 }
 
