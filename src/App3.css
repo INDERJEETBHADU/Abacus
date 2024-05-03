@@ -1,0 +1,53 @@
+
+*{
+    padding: 0;
+    margin: 0;
+    list-style-type: none !important;
+    text-decoration: none !important;
+    box-sizing: border-box !important;
+}
+
+.input_parent {
+    display: flex;
+    flex-direction: column;
+    max-width: 336px;
+    width: 100%;
+    margin-top: 35px;
+  }
+  
+  .name_input {
+    outline: none !important;
+    border: 0;
+    border-bottom: 1px solid #0F477526;
+  }
+  
+  .touch_btn {
+    padding: 16px 24px;
+    max-width: 168px;
+    border-radius: 4px;
+    background: #FFC226;
+    border: 0;
+    font-family: "Urbanist", sans-serif;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 19.2px;
+    text-align: left;
+    color: white;
+  }
+  
+  .heaving_card {
+    width: 796px;
+    height: 430px;
+    border-radius: 13px;
+    padding: 45px 51px 44px 52px;
+    background: #FFFFFF;
+  
+  }
+  
+  input[type=number]::-webkit-inner-spin-button,
+  input[type=number]::-webkit-outer-spin-button {
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    margin: 0;
+  }
