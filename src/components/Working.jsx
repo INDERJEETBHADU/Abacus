@@ -10,7 +10,7 @@ import launch from '../assets/images/svg/launch.svg'
 function Working() {
     return (
         <>
-            <div className="container-2">
+            <div className="container-2 mt-63">
                 <div className="d-flex align-items-center flex-column">
                     <Comnheading text="WORKING PROCESS" />
                     <h2 className=' ff-urbanist fw-bold text-40 lh-43 mb-0 mt-3'>How does we works</h2>

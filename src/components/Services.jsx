@@ -3,11 +3,17 @@ import bulb from '../assets/images/svg/bulb.svg'
 import design from '../assets/images/svg/design.svg'
 import enger from '../assets/images/svg/enger.svg'
 import Comnheading from '../common/Comnheading'
+import toplayer from '../assets/images/svg/services-top-layer.svg'
+import botlayer from '../assets/images/svg/services-bottom-layer.svg'
+import leftellips from '../assets/images/png/left-ellips.png'
 
 function Services() {
     return (
         <>
-            <div className="bg-service">
+            <div className="">
+                <img src={toplayer} alt="toplayer" className=' w-100' />
+            </div>
+            <div className="bg-service position-relative">
                 <div className="container-2 py-services">
                     <Comnheading text="SERVICES" />
                     <h2 className=' ff-urbanist fw-bold text-40 lh-43 mb-0 max-w-526 mt-21'>We run all kinds of services in <span className=' color-yellow'>form of software</span></h2>
@@ -41,7 +47,12 @@ function Services() {
                         </div>
                     </div>
                 </div>
+                <div className="position-absolute left-ellips-pos d-none d-xxl-block"><img src={leftellips} alt="leftellips" /></div>
             </div>
+            <div className="">
+                <img src={botlayer} alt="botlayer" className=' w-100' />
+            </div>
+            
         </>
     )
 }
