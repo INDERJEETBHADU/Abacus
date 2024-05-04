@@ -6,6 +6,42 @@
   box-sizing: border-box;
 }
 
+.ol,
+ul {
+  padding-left: 0 !important;
+  margin-bottom: 0 !important;
+}
+
+.cursor_pointer {
+  cursor: pointer;
+}
+
+.cmn_btn {
+  border-radius: 4px;
+  padding: 14px 16px;
+  border: 1px solid transparent;
+  background-color: var(--color-yellow);
+}
+
+
+
+/* header_section__css__here */
+.header_bg_img {
+  background-image: url("../src/assets/images/png/header_bg.png");
+  background-position: center;
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+  min-height: 936px;
+}
+
+.nav_box {
+  box-shadow: 0px 4px 4px 0px #00000014;
+
+  height: 90px;
+  width: 100%;
+  background: #FFFFFF;
+}
+
 /* margin--padding---gap--here */
 .py_47 {
   padding-top: 47px;

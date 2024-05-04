@@ -1,5 +1,6 @@
 import React from "react";
 import about_sec from "../assets/images/png/about.png";
+import Comnheading from "../common/Comnheading";
 
 function About() {
   return (
@@ -18,9 +19,7 @@ function About() {
             </div>
             <div className="col-md-6 d-flex align-items-end pt-4  pt-md-0">
               <div className="">
-                <h6 className=" mb-0  ff-urbanist fw-normal text-20 lh-21 text-black">
-                  ABOUT US
-                </h6>
+                <Comnheading text="ABOUT US" />
                 <h3 className=" mb-0 ff-urbanist fw-bold text-40 lh-43 text-black mt_9 max_w_519_heading">
                   We build digital products, from{" "}
                   <span className=" color-yellow ">idea to market</span>
