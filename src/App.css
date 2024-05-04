@@ -29,27 +29,46 @@ ul {
 .header_bg_img {
   background-image: url("../src/assets/images/png/header_bg.png");
   background-position: center;
-  background-size: 100% 100%;
+  background-size: cover;
   background-repeat: no-repeat;
-  min-height: 936px;
+  min-height: 940px;
+}
+
+.right_100 {
+  right: -100%;
 }
 
 .nav_box {
   box-shadow: 0px 4px 4px 0px #00000014;
-
   height: 90px;
   width: 100%;
   background: #FFFFFF;
 }
 
+.max_w_396 {
+  max-width: 513px;
+  width: 100%;
+}
+
 /* margin--padding---gap--here */
 .py_47 {
-  padding-top: 47px;
   padding-bottom: 47px;
 }
 
 .mt_9 {
   margin-top: 9px;
+}
+
+.mt_11 {
+  margin-top: 11px;
+}
+
+.mt_26 {
+  margin-top: 26px;
+}
+
+.pt_48 {
+  padding-top: 48px;
 }
 
 /* margin--padding---gap--here */
@@ -76,6 +95,18 @@ ul {
   .mt_9 {
     margin-top: 20px;
   }
+
+  .mt_26 {
+    margin-top: 36px;
+  }
+
+  .pt_48 {
+    padding-top: 68px;
+  }
+
+  .header_bg_img {
+    min-height: 980px;
+  }
 }
 
 @media (min-width:768px) {
@@ -87,6 +118,14 @@ ul {
   .mt_9 {
     margin-top: 10px;
   }
+
+  .mt_26 {
+    margin-top: 46px;
+  }
+
+  .header_bg_img {
+    min-height: 730px;
+  }
 }
 
 @media (min-width:992px) {
@@ -97,12 +136,26 @@ ul {
   .mt_9 {
     margin-top: 13px;
   }
+
+  .mt_26 {
+    margin-top: 56px;
+  }
+
+  .header_bg_img {
+    min-height: 840px;
+  }
 }
 
 @media (min-width:1024px) {
   .mt_9 {
     margin-top: 15px;
   }
+
+  .header_bg_img {
+    min-height: 780px;
+  }
+
+
 }
 
 @media (min-width:1200px) {
@@ -113,4 +166,73 @@ ul {
   .mt_9 {
     margin-top: 21px;
   }
+
+  .mt_11 {
+    margin-top: 19px;
+  }
+
+  .mt_26 {
+    margin-top: 66px;
+  }
+
+  .pt_48 {
+    padding-top: 150px;
+  }
+
+  .header_bg_img {
+    min-height: 966px;
+  }
+
+  .header_bg_img {
+    background-size: 100% 100%;
+  }
+}
+
+@media (max-width:992px) {
+
+
+  .overflow_hidden {
+    overflow: hidden !important;
+  }
+
+  .menu span:nth-child(1) {
+    height: 5px;
+    width: 38px;
+    background: var(--color-yellow);
+    display: block;
+  }
+
+  .menu span:nth-child(2) {
+    height: 5px;
+    width: 38px;
+    background: var(--color-yellow);
+    display: block;
+  }
+
+  .menu span:nth-child(3) {
+    height: 5px;
+    width: 38px;
+    background: var(--color-yellow);
+    display: block;
+  }
+
+  .z_9 {
+    z-index: 20;
+  }
+
+  .mobile-view {
+    background-color: white;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    position: fixed;
+    right: -100%;
+    top: 0;
+    z-index: 10;
+    transition: all 300ms linear;
+  }
+
 }

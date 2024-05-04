@@ -22,7 +22,7 @@
     --fs-lg: 24px;
     --fs-xl: 30px;
     --fs-2xl: 42px;
-    --fs-3xl: 64px;
+    --fs-3xl: 38px;
     /* ---color */
     --color-yellow: #ffc226;
     --color-grey: #b7c8d6;
@@ -114,7 +114,7 @@
 }
 
 .lh-69 {
-    line-height: 69.1px;
+    line-height: 47.1px;
 }
 
 .lh-24 {
@@ -128,7 +128,7 @@
         --fs-lg: 24px;
         --fs-xl: 38px;
         --fs-2xl: 42px;
-        --fs-3xl: 64px;
+        --fs-3xl: 46px;
 
     }
 
@@ -169,7 +169,7 @@
     }
 
     .lh-69 {
-        line-height: 69.1px;
+        line-height: 54.1px;
     }
 
     .lh-24 {
@@ -185,7 +185,7 @@
         --fs-lg: 24px;
         --fs-xl: 28px;
         --fs-2xl: 42px;
-        --fs-3xl: 64px;
+        --fs-3xl: 42px;
 
     }
 
@@ -226,7 +226,7 @@
     }
 
     .lh-69 {
-        line-height: 69.1px;
+        line-height: 50.1px;
     }
 
     .lh-24 {
@@ -242,7 +242,7 @@
         --fs-lg: 24px;
         --fs-xl: 36px;
         --fs-2xl: 42px;
-        --fs-3xl: 64px;
+        --fs-3xl: 48px;
 
     }
 
@@ -251,7 +251,7 @@
     }
 
     .lh-69 {
-        line-height: 69.44px;
+        line-height: 56.44px;
     }
 
     .lh-26 {
@@ -282,9 +282,6 @@
         line-height: 25.92px;
     }
 
-    .lh-69 {
-        line-height: 69.1px;
-    }
 
     .lh-24 {
         line-height: 24.4px;
@@ -299,7 +296,7 @@
         --fs-lg: 24px;
         --fs-xl: 37px;
         --fs-2xl: 42px;
-        --fs-3xl: 64px;
+        --fs-3xl: 55px;
 
     }
 
