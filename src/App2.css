@@ -1,8 +1,5 @@
  .bg-service {
-     background-image: url(./assets/images/png/bg-services.png);
-     background-repeat: no-repeat;
-     background-size: 100% 100%;
-     background-position: center;
+     background: #F7F9FD;
  }
 
  /************************************padding-margin******************************/
@@ -11,8 +8,7 @@
  }
 
  .py-services {
-     padding-top: 160px;
-     padding-bottom: 153px;
+     padding-bottom: 126px;
  }
 
  .mt-27 {
@@ -33,6 +29,10 @@
 
  .mt-98 {
      margin-top: 98px;
+ }
+
+ .mt-63 {
+     margin-top: 63px;
  }
 
  /************************************padding-margin******************************/
@@ -120,11 +120,17 @@
      margin-top: 48px;
  }
 
- @media (min-width:430px) {
-    .mt-48 {
-        margin-top: 0;
-    }
+ .left-ellips-pos {
+     top: 64%;
+     left: 0%;
  }
+
+ @media (min-width:430px) {
+     .mt-48 {
+         margin-top: 0;
+     }
+ }
+
  @media (min-width:666px) {
      .margin-top-48 {
          margin: 0 !important;
