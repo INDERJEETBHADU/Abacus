@@ -32,6 +32,10 @@ ul {
   background-size: cover;
   background-repeat: no-repeat;
   min-height: 940px;
+  /* max-width: 1920px;
+  width: 100%;
+  margin-right: auto;
+  margin-left: auto; */
 }
 
 .right_100 {
