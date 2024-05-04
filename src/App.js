@@ -7,6 +7,8 @@ import Header from "./components/Header"
 import About from "./components/About"
 import Contact from "./components/Contact";
 import Footer from './components/Footer';
+import Services from './components/Services';
+import Working from './components/Working';
 
 
 
@@ -15,9 +17,10 @@ function App() {
     <>
       <Header />
       <About />
+      <Services />
+      <Working />
       <Contact />
       <Footer />
-
     </>
 
   );
