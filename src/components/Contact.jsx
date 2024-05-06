@@ -7,26 +7,29 @@ import Comnheading from "../common/Comnheading";
 const Contact = () => {
   return (
     <>
-      <img src={upper_contact} alt="upr_layer" className=" w-100" />
-      <section className="contect_bg_color position-relative">
-        {/* ellipse */}
-        <div className=" d-none d-xl-block contact_ellipse position-absolute">
-          <img src={contact_ellipse} alt="contact_ellipse" />
-        </div>
-        <div className="container pb-133 pt-4">
-          <div className=" d-flex justify-content-center">
-            <Comnheading text="CONTACT US" />
+      <div className=" pt_49">
+        <img src={upper_contact} alt="upr_layer" className=" w-100" />
+        <div className="contect_bg_color position-relative">
+          {/* ellipse */}
+          <div className=" d-none d-xl-block contact_ellipse position-absolute">
+            <img src={contact_ellipse} alt="contact_ellipse" />
           </div>
-
-          <h2
-            className=" fw-bold ff-urbanist text-40 lh-43 text-center mt-1 mb-48 text-blacknpm start
-          "
-          >
-            Having any question?
-          </h2>
-          <Comnform />
+          <div className="container pb-133 pt-4">
+            <div className=" d-flex justify-content-center">
+              <Comnheading text="CONTACT US" />
+            </div>
+            <h2
+              className=" fw-bold ff-urbanist text-40 lh-43 text-center mt-1 mb-48 text-blacknpm start
+            "
+            >
+              Having any question?
+            </h2>
+            <div className="" data-aos="zoom-in">
+              <Comnform />
+            </div>
+          </div>
         </div>
-      </section>
+      </div>
     </>
   );
 };

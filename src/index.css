@@ -24,7 +24,7 @@
     --fs-2xl: 42px;
     --fs-3xl: 38px;
     /* ---color */
-    --color-yellow: #ffc226 ;
+    --color-yellow: #ffc226;
     --color-grey: #b7c8d6;
     --color-litepink: #FFF0F0;
 }
@@ -70,7 +70,7 @@
 }
 
 .ff-urbanist {
-    font-family: "Urbanist", sans-serif;
+    font-family: "Urbanist", sans-serif !important;
 }
 
 .ff-poppins {

@@ -5,11 +5,11 @@ import Comnheading from "../common/Comnheading";
 function About() {
   return (
     <>
-      <div className="">
+      <div className="" id="about">
         <div className="container">
           <div className="row py_47">
             <div className="col-md-6  d-flex align-items-center  align-items-lg-start">
-              <div className="">
+              <div className="" data-aos="zoom-in-up">
                 <img
                   className=" w-100 max_w_463"
                   src={about_sec}

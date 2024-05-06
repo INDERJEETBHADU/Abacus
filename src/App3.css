@@ -48,8 +48,16 @@
 
 }
 
+.mt_16 {
+  margin-top: 16px;
+}
+
 .mb-48 {
   margin-bottom: 48px;
+}
+
+.pb_15 {
+  padding-bottom: 15px;
 }
 
 input[type=number]::-webkit-inner-spin-button,
@@ -107,6 +115,31 @@ input[type=number]::-webkit-outer-spin-button {
 
 .bg_purple {
   background-color: #051B2E;
+}
+
+.icon_hover {
+  transition: 300ms linear;
+}
+
+.icon_hover:hover {
+  transform: translateY(-8px);
+}
+
+.footer_link::after {
+  position: absolute;
+  content: "";
+  bottom: -15%;
+  left: 0;
+  width: 0;
+  height: 1.2px;
+  background: white;
+  transition: all 0.3s linear;
+}
+
+
+.footer_link:hover::after {
+  width: 100%;
+  right: 0;
 }
 
 @media (min-width:576px) {

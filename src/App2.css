@@ -8,7 +8,7 @@
  }
 
  .py-services {
-     padding-bottom: 126px;
+     padding-bottom: 48px;
  }
 
  .mt-27 {
@@ -32,11 +32,11 @@
  }
 
  .mt-63 {
-     margin-top: 63px;
+     margin-top: 48px;
  }
 
  .pt-testinomial {
-     padding-top: 193px;
+     padding-top: 48px;
  }
 
  .mt-64 {
@@ -85,9 +85,9 @@
      box-shadow: 0px 9px 28px 0px #0000000A;
      height: 100%;
      background-color: white;
-     padding: 53px 0px 51px 0px;
+     padding: 30px 0px 25px 0px;
      border-radius: 10px;
-     transition: 0.3s linear;
+     transition: 0.3s linear !important;
  }
 
  .servics-box:hover {
@@ -204,6 +204,25 @@
      }
  }
 
+ @media (min-width:576px) {
+     .pb-services {
+         padding-bottom: 68px;
+     }
+
+     .servics-box {
+         padding: 40px 0px 40px 0px;
+     }
+
+     .mt-63 {
+         margin-top: 53px;
+     }
+
+     .pt-testinomial {
+         padding-top: 68px;
+     }
+
+ }
+
  @media (min-width:836px) {
      .margin-48 {
          margin: 0 !important;
@@ -213,6 +232,18 @@
  @media (min-width:768px) {
      .border-right {
          border-right: 2px solid #0F477526;
+     }
+
+     .pb-services {
+         padding-bottom: 78px;
+     }
+
+     .servics-box {
+         padding: 53px 0px 51px 0px;
+     }
+
+     .pt-testinomial {
+         padding-top: 98px;
      }
 
  }
@@ -239,4 +270,26 @@
          gap: 39px;
      }
 
+     .pb-services {
+         padding-bottom: 98px;
+     }
+
+     .pt-testinomial {
+         padding-top: 130px;
+     }
+
+ }
+
+ @media (min-width:1200px) {
+     .pb-services {
+         padding-bottom: 126px;
+     }
+
+     .mt-63 {
+         margin-top: 63px;
+     }
+
+     .pt-testinomial {
+         padding-top: 193px;
+     }
  }

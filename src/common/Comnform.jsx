@@ -2,6 +2,7 @@ import React from "react";
 import { useState } from "react";
 import emailjs from "@emailjs/browser";
 import Swal from "sweetalert2";
+import Commonbtn from "./Commonbtn";
 
 function Comnform() {
   const [inputvalue, setValue] = useState({
@@ -108,6 +109,11 @@ function Comnform() {
               value={inputvalue.five}
               name="five"
               onChange={addvalue}
+            />
+          </div>
+          <div className=" mt-5">
+            <Commonbtn
+              text="GET IN TOUCH"
             />
           </div>
         </form>

@@ -19,17 +19,52 @@ ul {
 .cmn_btn {
   border-radius: 4px;
   padding: 14px 16px;
-  border: 1px solid transparent;
+  border: 2px solid transparent;
   background-color: var(--color-yellow);
+  transition: 300ms linear;
+}
+
+.cmn_btn:hover {
+  background-color: white;
+  border: 2px solid var(--color-yellow);
+  color: var(--color-yellow) !important;
 }
 
 .cmn_btn_2 {
   border-radius: 4px !important;
   padding: 14px 16px !important;
-  border: 1px solid transparent !important;
+  border: 2px solid transparent !important;
   background-color: #ffc226 !important;
+  transition: 0.3s linear !important;
+}
+
+.cmn_btn_2:hover {
+  background-color: white !important;
+  border: 2px solid var(--color-yellow) !important;
+  color: var(--color-yellow) !important;
 
 }
+
+
+/* .home {
+  -webkit-transition: stroke-width 0.3s linear;
+  transition: stroke-width 0.3s linear;
+}
+
+.home:hover {
+  -webkit-text-stroke-width: 1px;
+} */
+
+.home {
+  -webkit-text-stroke-width: 0px;
+  -webkit-text-stroke-color: black;
+  transition: -webkit-text-stroke-width 0.3s linear;
+}
+
+.home:hover {
+  -webkit-text-stroke-width: 1px;
+}
+
 
 
 
@@ -83,6 +118,10 @@ ul {
   padding-top: 48px;
 }
 
+.pt_49 {
+  padding-top: 49px;
+}
+
 /* margin--padding---gap--here */
 
 .max_w_463 {
@@ -115,14 +154,11 @@ ul {
   border-bottom: none !important;
   border-top-left-radius: 13px !important;
   border-top-right-radius: 13px !important;
-      padding: 24px 27px  !important;
+  padding: 24px 27px !important;
 }
 
 .modal-footer {
-  justify-content: start !important;
-  border-top: non !important;
-  border-bottom-right-radius: 13px !important;
-  border-bottom-left-radius: 13px !important;
+  display: none !important;
 }
 
 @media (min-width:576px) {
@@ -147,6 +183,10 @@ ul {
   .header_bg_img {
     min-height: 980px;
   }
+
+  .pt_49 {
+    padding-top: 59px;
+  }
 }
 
 @media (min-width:768px) {
@@ -166,6 +206,10 @@ ul {
   .header_bg_img {
     min-height: 730px;
   }
+
+  .pt_49 {
+    padding-top: 79px;
+  }
 }
 
 @media (min-width:992px) {
@@ -184,6 +228,10 @@ ul {
   .header_bg_img {
     min-height: 840px;
   }
+
+  .pt_49 {
+    padding-top: 89px;
+  }
 }
 
 @media (min-width:1024px) {
@@ -193,6 +241,10 @@ ul {
 
   .header_bg_img {
     min-height: 780px;
+  }
+
+  .pt_49 {
+    padding-top: 109px;
   }
 
 
@@ -225,6 +277,10 @@ ul {
 
   .header_bg_img {
     background-size: 100% 100%;
+  }
+
+  .pt_49 {
+    padding-top: 118px;
   }
 }
 

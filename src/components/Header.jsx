@@ -9,7 +9,7 @@ function Header() {
   const [modalShow, setModalShow] = React.useState(false);
   return (
     <>
-      <div className="header_bg_img ">
+      <div className="header_bg_img " id="home">
         <Nav />
         <div className="container ">
           <div className="row pt_48">

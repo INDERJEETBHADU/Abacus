@@ -25,7 +25,7 @@ function Nav() {
                   onClick={() => {
                     setfirst(!show);
                   }}
-                  className=" text-black"
+                  className=" home text-black"
                   href="#home"
                 >
                   HOME
@@ -36,7 +36,7 @@ function Nav() {
                   onClick={() => {
                     setfirst(!show);
                   }}
-                  className=" text-black"
+                  className=" home text-black"
                   href="#about"
                 >
                   ABOUT US
@@ -47,7 +47,7 @@ function Nav() {
                   onClick={() => {
                     setfirst(!show);
                   }}
-                  className=" text-black"
+                  className=" home text-black"
                   href="#servies"
                 >
                   SERVICES
@@ -58,7 +58,7 @@ function Nav() {
                   onClick={() => {
                     setfirst(!show);
                   }}
-                  className=" text-black"
+                  className=" home text-black"
                   href="#process"
                 >
                   PROCESS
@@ -69,7 +69,7 @@ function Nav() {
                   onClick={() => {
                     setfirst(!show);
                   }}
-                  className=" text-black"
+                  className=" home text-black"
                   href="#testinomial"
                 >
                   TESTIMONIALS
