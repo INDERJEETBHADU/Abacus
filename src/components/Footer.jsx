@@ -6,11 +6,11 @@ import { Fackbook } from "../common/Helperr";
 const Footer = () => {
   return (
     <div>
-      <div className=" bg-black">
+      <div className=" bg_purple">
         <div className="container pt-80 pb-3">
           <div className="row">
             <div className="col-md-3 col-sm-6 col-12 ">
-            <div>
+              <div>
                 <p className=" mb-0 text-white opacity-75 text-16 lh-24 ff-urbanist">
                   Curabitur nec velit id felis porta{" "}
                   <span className=" d-sm-block">ultrices quis sed arcu.</span>
@@ -33,7 +33,7 @@ const Footer = () => {
               </div>
             </div>
             <div className="col-md-7 col-sm-6 col-12 mt-sm-0 mt-3  d-flex justify-content-sm-center">
-            <div className=" d-flex  footer_text_w justify-content-between">
+              <div className=" d-flex  footer_text_w justify-content-between">
                 <ul className=" mb-0 ps-0 d-flex flex-column gap-12  ">
                   <li>
                     <a
@@ -73,23 +73,23 @@ const Footer = () => {
               </div>
             </div>
             <div className="col-md-2 col-12 d-flex justify-content-md-end justify-content-start  mt-md-0 mt-3">
-            <div className=" d-flex gap-2">
-              <a href="">
-                <span className=" footer_svg_box d-flex align-items-center justify-content-center">
-                  <Instagram />
-                </span>
-              </a>
-              <a href="">
-                <span className=" footer_svg_box d-flex align-items-center justify-content-center">
-                  <Fackbook />
-                </span>
-              </a>
-              <a href="">
-                <span className=" footer_svg_box d-flex align-items-center justify-content-center">
-                  <Inded />
-                </span>
-              </a>
-            </div>
+              <div className=" d-flex gap-2">
+                <a href="">
+                  <span className=" footer_svg_box d-flex align-items-center justify-content-center">
+                    <Instagram />
+                  </span>
+                </a>
+                <a href="">
+                  <span className=" footer_svg_box d-flex align-items-center justify-content-center">
+                    <Fackbook />
+                  </span>
+                </a>
+                <a href="">
+                  <span className=" footer_svg_box d-flex align-items-center justify-content-center">
+                    <Inded />
+                  </span>
+                </a>
+              </div>
             </div>
           </div>
           <hr className="footer_line" />

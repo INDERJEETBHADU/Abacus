@@ -23,6 +23,14 @@ ul {
   background-color: var(--color-yellow);
 }
 
+.cmn_btn_2 {
+  border-radius: 4px !important;
+  padding: 14px 16px !important;
+  border: 1px solid transparent !important;
+  background-color: #ffc226 !important;
+
+}
+
 
 
 /* header_section__css__here */
@@ -87,6 +95,34 @@ ul {
 
 .mx_w_521 {
   max-width: 521px;
+}
+
+.contact_ellipse {
+  bottom: 5%;
+  right: 0%;
+}
+
+.modal-title {
+  display: none !important;
+}
+
+.btn-close {
+  --bs-btn-close-bg: url("../src/assets/images/svg/close_btn_modal.svg") !important;
+  --bs-btn-close-opacity: 1 !important;
+}
+
+.modal-header {
+  border-bottom: none !important;
+  border-top-left-radius: 13px !important;
+  border-top-right-radius: 13px !important;
+      padding: 24px 27px  !important;
+}
+
+.modal-footer {
+  justify-content: start !important;
+  border-top: non !important;
+  border-bottom-right-radius: 13px !important;
+  border-bottom-left-radius: 13px !important;
 }
 
 @media (min-width:576px) {

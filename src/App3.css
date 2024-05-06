@@ -42,7 +42,7 @@
   max-width: 796px;
   width: 100%;
   border-radius: 13px;
- 
+
   background: #FFFFFF;
   padding: 45px 30px 44px 26px;
 
@@ -95,7 +95,7 @@ input[type=number]::-webkit-outer-spin-button {
 }
 
 .footer_line {
-  border: 1px solid #FFFFFF2B;
+  border: 1px solid #2F4252;
   opacity: unset;
   margin-top: 39px;
   margin-bottom: 0;
@@ -105,18 +105,25 @@ input[type=number]::-webkit-outer-spin-button {
   gap: 12px;
 }
 
+.bg_purple {
+  background-color: #051B2E;
+}
+
 @media (min-width:576px) {
   .input_parent {
     max-width: 336px;
   }
-  .heaving_card{
+
+  .heaving_card {
     padding: 45px 51px 44px 52px;
   }
 }
+
 @media (min-width:768px) {
   .pt-80 {
     padding-top: 80px;
   }
+
   .pb-133 {
     padding-bottom: 133px;
   }
