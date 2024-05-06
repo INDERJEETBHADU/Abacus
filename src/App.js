@@ -9,6 +9,9 @@ import Contact from "./components/Contact";
 import Footer from './components/Footer';
 import Services from './components/Services';
 import Working from './components/Working';
+import Testinomial from './components/Testinomial';
+import "slick-carousel/slick/slick.css";
+import "slick-carousel/slick/slick-theme.css";
 
 
 
@@ -19,8 +22,10 @@ function App() {
       <About />
       <Services />
       <Working />
+      <Testinomial />
       <Contact />
       <Footer />
+
     </>
 
   );
