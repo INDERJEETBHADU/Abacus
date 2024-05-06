@@ -27,8 +27,8 @@
      margin-top: 34px;
  }
 
- .mt-98 {
-     margin-top: 98px;
+ .mt-47 {
+     margin-top: 47px;
  }
 
  .mt-63 {
@@ -128,11 +128,11 @@
  }
 
  .margin-48 {
-     margin: 48px !important;
+     margin: 24px !important;
  }
 
  .margin-top-48 {
-     margin: 48px !important;
+     margin: 24px !important;
  }
 
  .mt-48 {
@@ -221,6 +221,10 @@
          padding-top: 68px;
      }
 
+     .mt-47 {
+         margin-top: 67px;
+     }
+
  }
 
  @media (min-width:836px) {
@@ -244,6 +248,10 @@
 
      .pt-testinomial {
          padding-top: 98px;
+     }
+
+     .mt-47 {
+         margin-top: 77px;
      }
 
  }
@@ -291,5 +299,9 @@
 
      .pt-testinomial {
          padding-top: 193px;
+     }
+
+     .mt-47 {
+         margin-top: 98px;
      }
  }

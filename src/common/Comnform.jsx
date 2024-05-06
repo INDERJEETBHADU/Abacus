@@ -19,9 +19,10 @@ function Comnform() {
   function fromsubmit(e) {
     e.preventDefault();
     setValue({ first: "", second: "", third: "", four: "", five: "" });
+    
     Swal.fire({
-      title: "Good job!",
-      text: "Your task has been added !",
+      title: "Done!",
+      text: "Your Mail Has Been Sended!",
       icon: "success",
     });
 
