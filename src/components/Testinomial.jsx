@@ -58,7 +58,7 @@ function Testinomial() {
         <div className="row">
           <Slider ref={slider} {...settings}>
             <div className="col-6 border-right">
-              <div className="d-flex gap-39 mt-49">
+              <div className="d-flex  flex-column flex-sm-row gap-39 mt-49">
                 <div className="slider-circle d-flex justify-content-center align-items-center position-relative">
                   <p className=" mb-0 ff-urbanist fw-bold text-42 lh-69">W</p>
                   <div className="position-absolute dots-pos">
@@ -88,7 +88,7 @@ function Testinomial() {
               </div>
             </div>
             <div className="col-6">
-              <div className="d-flex gap-39 mt-49 pl-21">
+              <div className="d-flex flex-column flex-sm-row gap-39 mt-49 pl-21">
                 <div className="slider-circle d-flex justify-content-center align-items-center position-relative">
                   <p className=" mb-0 ff-urbanist fw-bold text-42 lh-69">A</p>
                   <div className="position-absolute dots-pos">

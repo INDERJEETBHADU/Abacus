@@ -42,43 +42,26 @@ ul {
   background-color: white !important;
   border: 2px solid var(--color-yellow) !important;
   color: var(--color-yellow) !important;
-
 }
-
-
-/* .home {
-  -webkit-transition: stroke-width 0.3s linear;
-  transition: stroke-width 0.3s linear;
-}
-
-.home:hover {
-  -webkit-text-stroke-width: 1px;
-} */
 
 .home {
-  -webkit-text-stroke-width: 0px;
-  -webkit-text-stroke-color: black;
-  transition: -webkit-text-stroke-width 0.3s linear;
+  -webkit-text-stroke-width: 1px;
+  -webkit-text-stroke-color: transparent;
+  transition: 300ms linear !important;
 }
 
 .home:hover {
   -webkit-text-stroke-width: 1px;
+  -webkit-text-stroke-color: black !important;
 }
-
-
-
 
 /* header_section__css__here */
 .header_bg_img {
-  background-image: url("../src/assets/images/png/header_bg.png");
+  background-image: url("../src/assets/images/png/header_bg.webp");
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
   min-height: 940px;
-  /* max-width: 1920px;
-  width: 100%;
-  margin-right: auto;
-  margin-left: auto; */
 }
 
 .right_100 {

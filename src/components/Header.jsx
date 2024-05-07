@@ -1,7 +1,7 @@
 import React from "react";
 import Nav from "./Nav";
 import Commonbtn from "../common/Commonbtn";
-import header_sec from "../assets/images/png/abacus_header.png";
+import header_sec from "../assets/images/png/abacus_header.webp";
 import MyVerticallyCenteredModal from "../common/MyVerticallyCenteredModal";
 import Button from "react-bootstrap/Button";
 
