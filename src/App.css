@@ -140,8 +140,31 @@ ul {
   padding: 24px 27px !important;
 }
 
+div:where(.swal2-icon).swal2-success .swal2-success-ring {
+  border: 2px solid #ffc226 !important;
+}
+
 .modal-footer {
   display: none !important;
+}
+
+div:where(.swal2-container) button:where(.swal2-styled).swal2-confirm {
+  background-color: #ffc226 !important;
+}
+
+div:where(.swal2-container) button:where(.swal2-styled).swal2-confirm:focus {
+  box-shadow: none !important;
+}
+
+div:where(.swal2-icon).swal2-success {
+  border-color: #ffc226 !important;
+  color: #ffc226 !important;
+}
+div:where(.swal2-icon).swal2-success [class^=swal2-success-line] {
+  background-color: #ffc226 !important;
+}
+div:where(.swal2-icon).swal2-success [class^=swal2-success-line][class$=tip] {
+  left: 0.25em !important;
 }
 
 @media (min-width:576px) {
